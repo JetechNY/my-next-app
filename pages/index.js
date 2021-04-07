@@ -11,7 +11,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Deployed with git intergrations
+          Deployed with Git Intergrations
         </h1>
 
         <p className={styles.description}>
