@@ -20,7 +20,7 @@ export default function Home() {
         </h1>
 
         <h3  classname={styles.title}>
-          <Link href="posts/restaurants">
+          <Link href="/restaurants">
             <a>::Restaurant List::</a>
           </Link>
         </h3>
