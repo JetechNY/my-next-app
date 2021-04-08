@@ -19,6 +19,12 @@ export default function Home() {
           </Link>
         </h1>
 
+        <h3  classname={styles.title}>
+          <Link href="posts/restaurants">
+            <a>::Restaurant List::</a>
+          </Link>
+        </h3>
+
         <p className={styles.description}>
           Get started by editing{" "}
           <code className={styles.code}>pages/index.js</code>
