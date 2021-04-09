@@ -11,7 +11,7 @@ export default function Home({ articles }) {
         <meta />
       </Head>
 
-      <h3 classname={styles.title}>
+      <h3 className={styles.title}>
         <Link href="/restaurants">
           <a>::Restaurant List::</a>
         </Link>
