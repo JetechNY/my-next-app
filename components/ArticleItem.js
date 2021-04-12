@@ -1,6 +1,5 @@
-
-import Link from 'next/link'
-import articleStyles from '../styles/Article.module.css'
+import Link from "next/link";
+import articleStyles from "../styles/Article.module.css";
 
 const ArticleItem = ({ article }) => {
   return (
@@ -10,7 +9,7 @@ const ArticleItem = ({ article }) => {
         <p>{article.excerpt}</p>
       </a>
     </Link>
-  )
-}
+  );
+};
 
-export default ArticleItem
+export default ArticleItem;

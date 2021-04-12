@@ -1,5 +1,5 @@
-import ArticleItem from "./ArticleItem";
-import articleStyles from "../styles/Article.module.css";
+import ArticleItem from './ArticleItem'
+import articleStyles from '../styles/Article.module.css'
 
 const ArticleList = ({ articles }) => {
   return (
@@ -8,6 +8,7 @@ const ArticleList = ({ articles }) => {
         <ArticleItem article={article} />
       ))}
     </div>
-  );
-};
-export default ArticleList;
+  )
+}
+
+export default ArticleList

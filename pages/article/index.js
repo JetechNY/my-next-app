@@ -1,30 +1,30 @@
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
 
-const article = ({ article }) => {
-  // const router = useRouter();
-  // const { id } = router.query;
+// const article = ({ article }) => {
+//   // const router = useRouter();
+//   // const { id } = router.query;
 
-  return <h1>Article {article.id} {article.title}</h1>;
-};
+//   return <h1>Article {article.id} {article.title}</h1>;
+// };
 
-export default article;
+// export default article;
 
-export const getServerSideProps = async (context) => {
-  const res = await fetch(
-    `https://jsonplaceholder.typicode.com/posts/${context.params.id}`
-  );
+// export const getServerSideProps = async (context) => {
+//   const res = await fetch(
+//     `https://jsonplaceholder.typicode.com/posts/${context.params.id}`
+//   );
 
-  const article = await res.json()
+//   const article = await res.json()
 
-  return{
-    props:{
-      article
-    }
-  }
-};
-
+//   return{
+//     props:{x
+//       article
+//     }
+//   }
+// };
 
 // const article = () => {
 //   return <>Hello </>;
 // };
 // export default article;
+
