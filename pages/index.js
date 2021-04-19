@@ -11,11 +11,19 @@ export default function Home({ articles }) {
         <meta />
       </Head>
 
-      <h3 className={styles.title}>
+      <h5 className={styles.title}>
         <Link href="/restaurants">
           <a>::Restaurant List::</a>
         </Link>
-      </h3>
+      </h5>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/kT8RIuQkK0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/>
+
+<video width="540" height="320" controls >
+  <source src="https://www.youtube.com/watch?v=4NVdAT1ox9w" />
+    Your video cannot load
+</video>
 
       <ArticleList articles={articles}/>
 
