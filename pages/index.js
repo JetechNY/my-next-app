@@ -10,7 +10,7 @@ export default function Home({ articles }) {
         <title> Trypto Fan</title>
         <meta charSet="UTF-8"/>
         <meta name="description" content="This is a app to order all your fast food in one place"/>
-      
+
       </Head>
 
       <h5 className={styles.title}>
@@ -19,8 +19,7 @@ export default function Home({ articles }) {
         </Link>
       </h5>
 
-  {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/kT8RIuQkK0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br/>
+  {/* <br/>
 
 <video width="540" height="320" controls >
   <source src="https://www.youtube.com/watch?v=4NVdAT1ox9w" />
