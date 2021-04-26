@@ -19,7 +19,6 @@ export default function Home({ articles }) {
         </Link>
       </h5>
 
-
   {/* <br/>
 
 <video width="540" height="320" controls >
