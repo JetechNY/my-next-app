@@ -19,12 +19,6 @@ export default function Home({ articles }) {
         </Link>
       </h5>
 
-  {/* <br/>
-<video width="540" height="320" controls >
-  <source src="https://www.youtube.com/watch?v=4NVdAT1ox9w" />
-    Your video cannot load
-</video> */}
-
       <ArticleList articles={articles}/>
 
       <footer className={styles.footer}>
