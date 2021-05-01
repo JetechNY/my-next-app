@@ -15,7 +15,7 @@ export default function Home({ articles }) {
 
       <h5 className={styles.title}>
         <Link href="/restaurants">
-          <a>::Restaurant List::</a>
+          <a>:Restaurants List:</a>
         </Link>
       </h5>
 
