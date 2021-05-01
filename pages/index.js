@@ -27,7 +27,7 @@ export default function Home({ articles }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by: Jetech Inc.
+          Powered by: Jetech Co.
         </a>
       </footer>
     </div>
