@@ -13,11 +13,11 @@ export default function Home({ articles }) {
 
       </Head>
 
-      <h5 className={styles.title}>
+      <h6 className={styles.title}>
         <Link href="/restaurants">
           <a>:Restaurant List:</a>
         </Link>
-      </h5>
+      </h6>
 
       <ArticleList articles={articles}/>
 
